@@ -6,13 +6,14 @@ honestly, there is no right answer. Choosing a first language will depend on wha
 
 **[Python](https://www.python.org/)**
 
-Python is always recommended if you’re looking for an easy and even fun programming language to learn first. Rather than having to jump into strict syntax rules, Python reads like English and is simple to understand for someone who’s new to programming. This allows you to obtain a basic knowledge of coding practices without having to obsess over smaller details that are often important in other languages.
+**Python **is always recommended if you’re looking for an easy and even fun programming language to learn first. Rather than having to jump into strict syntax rules, Python reads like English and is simple to understand for someone who’s new to programming. This allows you to obtain a basic knowledge of coding practices without having to obsess over smaller details that are often important in other languages.
 
-Python also is ideal for web development, graphic user interfaces (GUIs), and software development. In fact, it was used to build Instagram, YouTube, and Spotify, so it’s clearly in demand among employers in addition to having a faster onboarding.
+Python also is ideal for **web development**, **graphic user interfaces (GUIs)**, and **software development**. In fact, it was used to build Instagram, YouTube, and Spotify, so it’s clearly in demand among employers in addition to having a faster onboarding.
 
-Though it has it’s advantages, Python is often thought of as a slow language that requires more testing and is not as practical for developing mobile apps as other languages.
+Though it has it’s advantages, *Python is often thought of as a slow language that requires more testing and is not as practical for developing mobile apps as other languages.* 
 
-[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+**[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)**
+
 While C is one of the more difficult languages to learn, it’s still an excellent first language pick up because almost all programming languages are implemented in it. This means that once you learn C, it’ll be simple to learn more languages like C++ and C#.
 
 Because C is more “machine-level”, learning it is great for teaching you how a computer functions. Software Developer Joel Spolsky compares it to understanding basic anatomy before becoming a medical doctor, making it the best way to code efficiently.
@@ -20,6 +21,7 @@ Because C is more “machine-level”, learning it is great for teaching you how
 In this way, C is an exceptional choice to become a master coder and a talented developer from the get-go if you’re willing to take on the challenge.
 
 [**Java**](https://www.java.com/en/)
+
 Java is an object-oriented and feature-heavy programming language that’s in high demand. It’s been built under the premise of “Write once, run anywhere,” meaning that it can be written on any device and work cross-platform.
 
 This makes it one of the most desired (yes, we mean high-paid) language skills. So, if you’re looking to learn a language that’s going to get you a great career, this might be the one, especially since top employers for Java programmers including Ebay, Amazon, and IBM.
@@ -29,6 +31,7 @@ Additionally, Java is often used for Android and iOS app development, as it’s 
 While it may not be as easy to pick up as Python, Java is a high-level language, and so it’s still relatively beginner-friendly. However, it has a slow startup and will take beginners much longer to deploy their first project.
 
 [**JavaScript**](https://www.javascript.com/)
+
 JavaScript is another incredibly popular language. Many websites that you use every day rely on JavaScript including Twitter, Gmail, Spotify, Facebook, and Instagram according to General Assembly.
 
 Additionally, it’s a must-have when adding interactivity to websites because it communicates with HTML and CSS. This makes it essential for front-end development and consumer-facing websites while becoming increasingly important in back-end development and growing in demand all the time. Because of its popularity, JavaScript is also the leading the charge in test automation frameworks, being the backbone of frameworks like Protractor and Nightwatch.JS.
