@@ -46,7 +46,7 @@ They just act like a variable in python.
 
 Let’s create a Simple function for Greeting People:
 
-```
+```py
 def greet(msg):
   print(f'Greeting:{msg}')
 ```
@@ -56,7 +56,7 @@ It's a simple function that takes msg as an argument and prints it in formatted 
 
 Now let's assume that we wanted to add some top layer functionality but don’t want to change the existing function for more readable code.We decide to make another function which shows user “Good Morning” “Good Evening” and “Good Afternoon” according to time of function call:
 
-```
+```py
 from time import time
 #Function to greet people
 def greet(msg):
@@ -87,7 +87,7 @@ Return another Function
 > HOF are used by decorators to create those complex structures.
 
 Let's take another example of Higher Order Function:
-```
+```py
 #Function to add two numbers
 def add(x, y):
   returnx+y
@@ -110,7 +110,7 @@ Decorators supercharge a function and add extra functionality to it. It is simpl
 
 
 *Now it is the time to create our own decorator*
-```
+```py
 #Adecortaor Function with func as argument
 def make_decorator( func):
     def inner func():
@@ -128,7 +128,7 @@ Here we have created a decorator function or a higher order function named as **
 
 There are many ways of passing the normal function into the **make_decorator** function. One of the common ways is to call the function simply as shown below:
 
-```
+```py
 #A decorator Function with func as argument
 def make_decorator( func):
     def inner_func():
@@ -153,7 +153,7 @@ In python we have another way of implementing this kind of higher order function
 
 For example:
 
-```
+```py
 #Adecortaor Function with func as argument
 def make_decorator(func):
     def inner_func():
@@ -178,7 +178,7 @@ Till now all the examples and use cases we discussed are good for the function w
 
 What if we have some function which arguments?
 
-```
+```py
 #additions function
 def add(x,y):
   return x+y
@@ -195,7 +195,7 @@ def calculator(func):
 
 In this scenario the Calculator function would work as we are not passing the arguments here. For that we also have to pass the same arguments in cal function inside the calculator function.
 
-```
+```py
 #additions function
 @calculator
 def add(x,y):
@@ -221,7 +221,7 @@ There may be case when you don't know how many positional arguments is to be pas
 
 Lets have an example to understand it more easily:
 
-```
+```py
 #Adecortaor Function with func as argument
 def my_decorator(func):
     %23 To deal with unknow number of positional arguments 
@@ -244,7 +244,7 @@ Just like an ordinary function a Decorator function can be used multiple times.
 
 Let's create a decorator function with the following code:
 
-```
+```py
 def run_twice( func):
   def wrapper():
     #this wrapper runs twice
@@ -265,7 +265,7 @@ The decorator run_twice  runs whatever the function is passed twice. This simply
 The same way a value is passed in function we can pass arguments to Decorator itself too.
 Let's try to create a Decorator with arguments with same functionality as above:
 
-```
+```py
 def run_multiple(num):
   def run(func):
     def wrapper( ):
@@ -288,7 +288,7 @@ greet()
 Same as ordinary functions we can return something out of the wrapper function.
 Consider the following timing function, it prints a statement then returns the current time, we are decorating it with another function:
 
-```
+```py
 from time import time
 def my_decorator(func):
   def wrapper( 0:
@@ -328,7 +328,7 @@ There are two possible ways for doing this:
 - @classmethod: It is used to create methods that are bound to the class and not the object of the class. It is shared among all the objects of that class. The class is passed as the first parameter to a class method. Class methods are often used as factory methods that can create specific instances of the class.
 - @staticmethod: Static methods can't modify object state or class state as they don't have access to cls or self. They are just a part of the class namespace.
 
-```
+```py
 class Person:
      @staticmethod
      def hello( ):
@@ -341,7 +341,7 @@ Person.hello()
 - @property: It is used to create getters and setters for class attributes.
 Let's see an example of all the three decorators:
 
-```
+```py
 class Student:
     def _init_(self, name, level):
          self.name name
@@ -360,7 +360,7 @@ print(stu.info)
 You can also use decorators on a whole class.
 Writing a class decorator is very similar to writing a function decorator. The only difference is that in this case the decorator will receive a class and not a function as an argument. Decorating a class does not decorate its methods. It's equivalent to the following:
 
-```
+```py
 className = decorator(className)
 ```
 
@@ -375,7 +375,7 @@ The __init__ function needs to take a function as an argument.
 The class needs to implement the __call__ method. This is required because the class will be used as a decorator and a decorator must be a callable object.
 Now, let's implement the class:
 
-```
+```py
 class CountCalls:
   def _init_(self, func):
     self.func func
@@ -407,7 +407,7 @@ Classes can also be used as decorators by implementing the __call__ method and p
 Chaining the decorators means that we can apply multiple decorators to a single function. These are also termed as nesting decorators.
 Consider the following two decorators:
 
-```
+```py
 def split_string(func):
   def wrapper(*args, **kwargs):
     print("This is Split Decorator")
@@ -433,7 +433,7 @@ We have used both the decorator on the single function. This way of applying mul
 
 Output:
 
-```
+```py
 This is Split Decorator
 This is UpperCase Decorator
 ['HELLO,', 'ABHISHEK!']
@@ -452,7 +452,7 @@ Here :
 
 You can achieve this by also using statement like this
 
-```
+```py
 greet=split_string(to_upper(greet))
 print(greet)
 ```
