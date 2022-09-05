@@ -2,7 +2,7 @@
 
 ## Is Python an object-oriented programming language?
 
-Yes, Python is an objected oriented programming language. Everything in python is an object. Using python we can create classes and objects,for example, that functions are first-class objects. Functions, classes, strings, and even types are objects in Python: like any object, they have a type, they can be passed as function arguments, and they may have methods and properties. Therefore, **Python is object oriented programming language**.
+Yes, Python is an objected oriented programming language. Everything in python is an object. Using python we can create classes and objects,for example, that functions are first-class objects. Functions, classes, strings, and even types are objects in Python: like any object, they have a type, they can be passed as function arguments, and they may have methods and properties. Therefore, **Python is object oriented programming language.**
    
 
 ## Main Concepts of Object-Oriented Programming
